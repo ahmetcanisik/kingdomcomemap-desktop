@@ -1,3 +1,8 @@
-# Kingdom Come: Deliverance Map for Desktop Application(Windows, Linux)
+# Kingdom Come: Deliverance Map Desktop(Offline) 
+
+### on avalilable Windows, Linux
+
+
+### Installation
 
 [Download Latest Version](https://github.com/ahmetcanisik/kingdomcomemap-desktop/releases/latest)
