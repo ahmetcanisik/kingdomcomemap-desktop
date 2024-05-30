@@ -6,15 +6,20 @@
 
 Thanks to RogerHN's [kingdomcomemap.github.io](https://kingdomcomemap.github.io) you can use the Kindom Come map even when not in game, City names, Fast travel points etc. You can see many points such as on this map and add our own markers. But it has a small problem: you always need to have an internet connection or browser to use this map. Here's a desktop app that Kingdom Come players can use offline. Created using electron and [kingdomcomemap source codes](https://github.com/kingdomcomemap/kingdomcomemap.github.io).
 
+<br>
 
 <img src="./windows.PNG" width="100%" height="" alt="banner">
 Screenshot of how the application looks on Windows operating system
 
 
+<br>
+
 ## Installation
 Currently available for download on Windows and Linux,
 go to [Download Latest Version](https://github.com/ahmetcanisik/kingdomcomemap-desktop/releases/latest)
 
+
+<br>
 
 ## Source Codes
 [Source codes](https://github.com/ahmetcanisik/kingdomcomemap-desktop/tree/master/source) are presented openly for those who want to develop the project on their own. After downloading the source codes, follow these steps for installation.
@@ -48,6 +53,7 @@ yarn build --win
 yarn build --linux
 ```
 
+<br>
 
 ## Creators
 <a href="https://github.com/rogerhnn" target="_blank"><img src="https://avatars.githubusercontent.com/u/1373782?v=4" style="border-radius: 50%;" width="64" height="64" alt="Rogerhnn"></a>
