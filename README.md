@@ -8,5 +8,5 @@ Currently available for download on Windows and Linux,
 go to [Download Latest Version](https://github.com/ahmetcanisik/kingdomcomemap-desktop/releases/latest)
 
 ## Creators
-<a href="https://github.com/rogerhnn" target="_blank"><img style="border-radius: 64px !important;" src="https://avatars.githubusercontent.com/u/1373782?v=4" width="64" height="64" /></a>
-<a href="https://github.com/ahmetcanisik" target="_blank"><img style="border-radius: 64px !important;" src="https://avatars.githubusercontent.com/u/167754410?v=4" width="64" height="64" /></a>
+<a href="https://github.com/rogerhnn" target="_blank"><img src="https://avatars.githubusercontent.com/u/1373782?v=4" style="border-radius: 50%;" width="64" height="64" alt="Rogerhnn"></a>
+<a href="https://github.com/ahmetcanisik" target="_blank"><img src="https://avatars.githubusercontent.com/u/167754410?v=4" style="border-radius: 50%;" width="64" height="64" alt="ahmetcanisik"></a>
