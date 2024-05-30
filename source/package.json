@@ -1,0 +1,67 @@
+{
+  "name": "kingdomcomemap",
+  "version": "1.0.0",
+  "description": "Interactive Map Application for Kingdom Come: Deliverance",
+  "author": "ahmetcanisik <can.isik.business@gmail.com> (https://ahmetcanisik.com)",
+  "main": "main.js",
+  "license": "MIT",
+  "keywords": [
+    "kingdom come deliverance online",
+    "kcd",
+    "kcdmap",
+    "kcdmap online",
+    "kingdom come",
+    "kingdom come map",
+    "interactive map",
+    "kcd interactive",
+    "kcd interactive map"
+  ],
+  "homepage": "https://ahmetcanisik.com",
+  "bugs": {
+    "url": "https://github.com/ahmetcanisik/kingdomcomemap-desktop/issues"
+  },
+  "browserslist": [],
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^30.0.9",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "productName": "kingdomcomemap",
+    "appId": "com.ahmetcanisik.kingdomcomemap",
+    "dmg": {
+      "contents": [
+        {
+          "x": 130,
+          "y": 220
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "msi"
+      ],
+      "icon": "./app/icons/win/icon.ico"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb",
+        "rpm",
+        "snap"
+      ],
+      "icon": "./app/icons/png/256x256.png",
+      "category": "Games"
+    }
+  }
+}
