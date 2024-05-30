@@ -1,5 +1,9 @@
 # Interactive Map app for Kingdom Come: Deliverance
 
+[![Build Status][github-actions-status]][github-actions-url]
+[![Github Tag][github-tag-image]][github-tag-url]
+[![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/gfFAt5JW)
+
 Thanks to RogerHN's [kingdomcomemap.github.io](https://kingdomcomemap.github.io) you can use the Kindom Come map even when not in game, City names, Fast travel points etc. You can see many points such as on this map and add our own markers. But it has a small problem: you always need to have an internet connection or browser to use this map. Here's a desktop app that Kingdom Come players can use offline. Created using electron and [kingdomcomemap source codes](https://github.com/kingdomcomemap/kingdomcomemap.github.io).
 
 
