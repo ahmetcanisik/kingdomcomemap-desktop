@@ -36,7 +36,7 @@ yarn start
 ```
 
 
-Eğer projeyi bir masaüstü uygulamasına dönüştürmek istersenizde şu kodlar işinizi görecektir
+If you want to convert the project into a desktop application, these codes will work.
 ```bash
 # Whatever your operating system is, Electron will build the application accordingly.
 yarn build
