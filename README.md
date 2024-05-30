@@ -15,6 +15,40 @@ Screenshot of how the application looks on Windows operating system
 Currently available for download on Windows and Linux,
 go to [Download Latest Version](https://github.com/ahmetcanisik/kingdomcomemap-desktop/releases/latest)
 
+
+## Source Codes
+[Source codes](https://github.com/ahmetcanisik/kingdomcomemap-desktop/tree/master/source) are presented openly for those who want to develop the project on their own. After downloading the source codes, follow these steps for installation.
+```bash
+# install with npm
+npm install
+
+# or pnpm
+pnpm install
+
+# or yarn
+yarn install
+```
+
+
+After the installation is complete, launch the electron application with these codes:
+```bash
+yarn start
+```
+
+
+Eğer projeyi bir masaüstü uygulamasına dönüştürmek istersenizde şu kodlar işinizi görecektir
+```bash
+# Whatever your operating system is, Electron will build the application accordingly.
+yarn build
+
+# If you want the application to run on Windows, add this to the output command: --win
+yarn build --win
+
+# If you want the application to run on Linux, add this to the output command: --linux
+yarn build --linux
+```
+
+
 ## Creators
 <a href="https://github.com/rogerhnn" target="_blank"><img src="https://avatars.githubusercontent.com/u/1373782?v=4" style="border-radius: 50%;" width="64" height="64" alt="Rogerhnn"></a>
 <a href="https://github.com/ahmetcanisik" target="_blank"><img src="https://avatars.githubusercontent.com/u/167754410?v=4" style="border-radius: 50%;" width="64" height="64" alt="ahmetcanisik"></a>
