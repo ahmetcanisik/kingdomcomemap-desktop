@@ -53,8 +53,6 @@ yarn build --win
 yarn build --linux
 ```
 
-<br>
-
 ## Creators
 <a href="https://github.com/rogerhnn" target="_blank"><img src="https://avatars.githubusercontent.com/u/1373782?v=4" style="border-radius: 50%;" width="64" height="64" alt="Rogerhnn"></a>
 <a href="https://github.com/ahmetcanisik" target="_blank"><img src="https://avatars.githubusercontent.com/u/167754410?v=4" style="border-radius: 50%;" width="64" height="64" alt="ahmetcanisik"></a>
