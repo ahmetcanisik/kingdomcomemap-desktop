@@ -1,6 +1,6 @@
 # Kingdom Come: Deliverance Map Desktop(Offline) 
 
-### on avalilable Windows, Linux
+### Currently available for download on Windows and Linux
 
 
 ### Installation
