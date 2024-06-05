@@ -24,6 +24,13 @@ go to [Download Latest Version](https://github.com/ahmetcanisik/kingdomcomemap-d
 ## Source Codes
 [Source codes](https://github.com/ahmetcanisik/kingdomcomemap-desktop/tree/master/source) are presented openly for those who want to develop the project on their own. After downloading the source codes, follow these steps for installation.
 ```bash
+# Cloning source code
+git clone https://github.com/ahmetcanisik/kingdomcomemap-desktop.git
+
+# Go to source directory
+cd kingdomcomemap-desktop/source
+```
+```bash
 # install with npm
 npm install
 
