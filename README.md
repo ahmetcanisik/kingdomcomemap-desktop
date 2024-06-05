@@ -44,19 +44,35 @@ yarn install
 
 After the installation is complete, launch the electron application with these codes:
 ```bash
+# start with npm
+npm run start
+
+# or pnpm
+pnpm start
+
+# or yarn
 yarn start
 ```
 
 
 If you want to convert the project into a desktop application, these codes will work.
 ```bash
-# Whatever your operating system is, Electron will build the application accordingly.
-yarn build
+# build with npm
+npm run build
 
-# If you want the application to run on Windows, add this to the output command: --win
+# or pnpm
+pnpm build
+
+# or yarn
+yarn build
+```
+
+If you want output targeting a specific operating system, run these lines:
+```bash
+# only building for windows
 yarn build --win
 
-# If you want the application to run on Linux, add this to the output command: --linux
+# or linux
 yarn build --linux
 ```
 
