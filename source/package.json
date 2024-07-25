@@ -1,6 +1,6 @@
 {
   "name": "kingdomcomemap",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Interactive Map Application for Kingdom Come: Deliverance",
   "author": "ahmetcanisik <can.isik.business@gmail.com> (https://ahmetcanisik.com)",
   "main": "main.js",
@@ -16,7 +16,7 @@
     "kcd interactive",
     "kcd interactive map"
   ],
-  "homepage": "https://ahmetcanisik.com",
+  "homepage": "https://github.com/ahmetcanisik/kingdomcomemap-desktop/",
   "bugs": {
     "url": "https://github.com/ahmetcanisik/kingdomcomemap-desktop/issues"
   },
@@ -30,8 +30,9 @@
     "electron-builder": "^24.13.3"
   },
   "build": {
-    "productName": "kingdomcomemap",
+    "productName": "Kingom Come Map",
     "appId": "com.ahmetcanisik.kingdomcomemap",
+    "asar": false,
     "dmg": {
       "contents": [
         {
@@ -55,13 +56,12 @@
     },
     "linux": {
       "target": [
-        "AppImage",
         "deb",
-        "rpm",
-        "snap"
+        "rpm"
       ],
       "icon": "./app/icons/png/256x256.png",
       "category": "Games"
     }
-  }
+  },
+  "dependencies": {}
 }
