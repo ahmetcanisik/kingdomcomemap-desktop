@@ -1,6 +1,13 @@
 <img src="banner.webp" width="100%" alt="banner">
 
-# Interactive Map app for Kingdom Come: Deliverance
+# Interactive Map Client for Kingdom Come: Deliverance
+
+<br>
+
+> [!IMPORTANT]
+> The code repository for this project has been moved to <https://github.com/kcdmap/kcdmap-electron>
+
+<br>
 
 [![Online](https://badgen.net/badge/icon/online?icon=firefox&label)](https://kingdomcomemap.github.io)[![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/gfFAt5JW)
 
